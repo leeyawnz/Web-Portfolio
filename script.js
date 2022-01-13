@@ -1,6 +1,10 @@
 // Script for Navigation Bar
 let navHamMenu = document.getElementById("nav-ham-menu");
 let navMenu = document.getElementById("nav-menu");
+let homeLink = document.getElementById("home-link");
+let aboutLink = document.getElementBy("about-link");
+let projectsLink = document.getElementById("projects-link");
+let contactLink = document.getElementById("contact-link");
 
 navHamMenu.onclick = function() {
     navHamMenu.classList.toggle("active");
