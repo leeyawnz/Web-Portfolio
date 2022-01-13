@@ -1,3 +1,13 @@
+// Script for Navigation Bar
+let navHamMenu = document.getElementById("nav-ham-menu");
+let navMenu = document.getElementById("nav-menu");
+
+navHamMenu.onclick = function() {
+    navHamMenu.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+
+
 // Script for particle effect
 const canvas = document.getElementById("home-canvas");
 const ctx = canvas.getContext('2d');
