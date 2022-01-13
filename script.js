@@ -2,7 +2,7 @@
 let navHamMenu = document.getElementById("nav-ham-menu");
 let navMenu = document.getElementById("nav-menu");
 let homeLink = document.getElementById("home-link");
-let aboutLink = document.getElementBy("about-link");
+let aboutLink = document.getElementById("about-link");
 let projectsLink = document.getElementById("projects-link");
 let contactLink = document.getElementById("contact-link");
 
@@ -11,6 +11,29 @@ navHamMenu.onclick = function() {
     navMenu.classList.toggle("active");
 }
 
+homeLink.onclick = function() {
+    navHamMenu.classList.remove("active");
+    navMenu.classList.remove("active");
+    location.href = "#home";
+}
+
+aboutLink.onclick = function() {
+    navHamMenu.classList.remove("active");
+    navMenu.classList.remove("active");
+    location.href = "#about";
+}
+
+projectsLink.onclick = function() {
+    navHamMenu.classList.remove("active");
+    navMenu.classList.remove("active");
+    location.href = "#projects";
+}
+
+contactLink.onclick = function() {
+    navHamMenu.classList.remove("active");
+    navMenu.classList.remove("active");
+    location.href = "#contact";
+}
 
 // Script for particle effect
 const canvas = document.getElementById("home-canvas");
