@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leon's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/875cb7c038.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <div id="nav">
+        <div id="nav-logo">
+            <svg width="44.4" height="25" viewBox="0 0 45 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="nav-logo-svg">
+                <rect id="right-n" x="39.6552" y="6.89655" width="4.74138" height="18.1034" fill="white"/>
+                <rect id="top-n" x="37.931" width="6.46552" height="6.89655" fill="white"/>
+                <rect id="left-n" x="33.1897" width="4.74138" height="25" fill="white"/>
+                <rect id="bottom-o" x="20.6897" y="18.1035" width="6.46552" height="6.89655" fill="white"/>
+                <rect id="right-o" x="27.1552" y="6.89655" width="4.74138" height="18.1034" fill="white"/>
+                <rect id="top-o" x="25.431" width="6.46552" height="6.89655" fill="white"/>
+                <rect id="left-o" x="20.6897" width="4.74138" height="18.1034" fill="white"/>
+                <rect id="bottom-e" x="10.3448" y="18.1035" width="9.05172" height="6.89655" fill="white"/>
+                <rect id="middle-e" x="10.3448" y="9.0517" width="9.05172" height="6.89655" fill="white"/>
+                <rect id="top-e" x="10.3448" width="9.05172" height="6.89655" fill="white"/>
+                <rect id="l" width="9.05172" height="25" fill="white"/>
+                </g>
+            </svg>
+        </div>
+        <div id="nav-menu" class="flex-ctr-ctr">
+            <ul id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div id="nav-ham-menu">
+                <div id="bar1"></div>
+                <div id="bar2"></div>
+                <div id="bar3"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Home -->
+    <div id="home" class="flex-ctr-ctr">
+        <div id="home-intro">
+            <div id="home-title">Hello, I'm <span>Leon</span>.</div>
+            <hr>
+            <div id="home-desc">Front-end Web Developer <span>&</span> UI/UX Enthusiast</div>
+        </div>
+        <canvas id="home-canvas"></canvas>
+    </div>
+
+    <!-- About -->
+    <div id="about">
+        <div id="about-top" class="flex-col-ctr-ctr">
+            <div id="about-title">About Me</div>
+            <div class="separator"></div>
+        </div>
+        <div id="about-bottom">
+            <div id="about-left">
+                <div id="about-get">Get to know me!</div>
+                I'm Leon Chua, a Front-end Web Developer, who is passionate in building the Front-end of Websites and 
+                Web Applications. I'm open to Job opportunities where I can contribute, learn and grow. 
+                <br>
+                <br>
+                Check out some of my work in the <a href="#projects">Projects</a> section.
+            </div>
+            <div id="about-right">
+                <div id="about-skills">Skills:</div>
+                <div id="about-skill-list">
+                    <div>HTML</div>
+                    <div>CSS</div>
+                    <div>JavaScript</div>
+                    <div>Python</div>
+                    <div>SQL Basics</div>
+                    <div>Github</div>
+                    <div>Figma</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <div id="projects">
+        <div id="projects-top" class="flex-col-ctr-ctr">
+            <div id="projects-title">Projects</div>
+            <div class="separator"></div>
+        </div>
+        <div id="projects-bottom">
+            <div id="project1">
+                <img class="project-image" src="media/Group 20.png" alt="">
+                <div id="project1-right">
+                    <div>
+                        <div id="project1-title">Weather API App</div>
+                        <div class="separator"></div>
+                    </div>
+                    <div id="project1-info">
+                        Created a simple API application that shows the current and forecasted weather of Singapore. 
+                        Learnt how to make API calls using the fetch method and how to interact with JSON files to display 
+                        relevant information onto the webpage.
+                    </div>
+                    <div class="button-container">
+                        <a href="https://leeyawnz.vercel.app/html-project/weather-api-app/index.html" target="_blank"><button class="button">View Live</button></a>
+                        <button class="button">Source Code</button>
+                    </div>
+                </div>
+            </div>
+            <div id="project2">
+                <img class="project-image" src="media/Group 19.png" alt="">
+                <div id="project2-right">
+                    <div>
+                        <div id="project2-title">Color Palette Generator</div>
+                        <div class="separator"></div>
+                    </div>
+                    <div id="project2-info">
+                        As UI/UX has become of greater emphasis in web design and development, part of a great UI/UX is 
+                        the use of colors. Inspired by Coolors, this application was created to learn about color theory 
+                        and can be applied on future projects.
+                    </div>
+                    <div class="button-container">
+                        <a href="https://leeyawnz.vercel.app/html-project/color-palette-generator/index.html" target="_blank"><button class="button">View Live</button></a>
+                        <button class="button">Source Code</button>
+                    </div>
+                </div>
+            </div>
+            <div id="project3">
+                <img class="project-image" src="media/Group 18.png" alt="">
+                <div id="project3-right">
+                    <div>
+                        <div id="project3-title">Template Portfolio Site</div>
+                        <div class="separator"></div>
+                    </div>
+                    <div id="project3-info">
+                        Getting into front-end web development, this project is an introduction to responsive website design 
+                        and basic JavaScript for simple DOM manipulation.
+                    </div>
+                    <div class="button-container">
+                        <a href="https://leeyawnz.vercel.app/html-project/layout-one/index.html" target="_blank"><button class="button">View Live</button></a>
+                        <button class="button">Source Code</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+        <div id="contact-top" class="flex-col-ctr-ctr">
+            <div id="contact-title">Get In Touch</div>
+            <div class="separator"></div>
+        </div>
+        <div id="contact-bottom">
+            <form action="https://formspree.io/f/xqkwjkwy" method="POST">
+                <label>
+                    <input type="text" name="name" placeholder="Name">
+                </label>
+                <label>
+                    <input type="email" name="_replyto" placeholder="Email">
+                </label>
+                <label>
+                    <input type="text" name="_subject" placeholder="Subject"></input>
+                </label>
+                <label>
+                    <textarea name="message" placeholder="Message"></textarea>
+                </label>
+                <button class="button" type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+        Copyright © 2021 - All Rights Reserved
+    </div>
+    <script>
+        let navHamMenu = document.getElementById("nav-ham-menu");
+        let navMenu = document.getElementById("nav-menu");
+
+        navHamMenu.onclick = function() {
+            navHamMenu.classList.toggle("active");
+            navMenu.classList.toggle("active");
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
