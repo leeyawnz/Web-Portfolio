@@ -193,7 +193,7 @@ body::-webkit-scrollbar {
 }
 #about-skill-list {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 8px;
 }
 #about-skill-list div{
