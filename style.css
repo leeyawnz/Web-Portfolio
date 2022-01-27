@@ -193,7 +193,7 @@ body::-webkit-scrollbar {
 }
 #about-skill-list {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 8px;
 }
 #about-skill-list div{
@@ -202,7 +202,7 @@ body::-webkit-scrollbar {
     padding: 4px 4px;
     border-radius: 5px;
     text-align: center;
-    width: 90px;
+    width: 120px;
 }
 
 
